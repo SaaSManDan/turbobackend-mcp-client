@@ -1,0 +1,21 @@
+{
+  "name": "@turbobackend/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server client for TurboBackend platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "turbobackend-mcp": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "eventsource-parser": "^3.0.6",
+    "nanoid": "^5.1.6",
+    "zod": "^4.1.13"
+  }
+}
